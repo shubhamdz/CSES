@@ -20,7 +20,7 @@ const int INF = 1e9;
 int n, x;
 int v[101];
 vector<int> dp;
- 
+ // this is form 2 because it ending at level(means i) it is not form 1 beacause it is not till n 
 int rec(int sum) {
     if (sum == 0) {
         return 0;
